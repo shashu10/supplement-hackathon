@@ -55,7 +55,3 @@ def query_consensus(query):
     except requests.RequestException as e:
         print(f"Request failed: {e}")
         return None
-
-# Example usage
-result = query_consensus("What are the benefits of vitamin D?")
-print(result)
